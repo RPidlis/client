@@ -24,7 +24,7 @@ const AddPostBtn = styled.a`
   color: #FFFFFF;
 	background: #67BFFF;
 	box-shadow: 0px 10px 25px rgba(148, 174, 213, .15);
-	border-right: 10px;
+	border-radius: 10px;
 	position: absolute;
 	width: 139px;
 	height: 25px;
@@ -33,8 +33,7 @@ const AddPostBtn = styled.a`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	//transform: translate(-);
-
+	transform: translate(-50%);
 `
 
 export default function NavBar () {
@@ -43,7 +42,6 @@ export default function NavBar () {
 			<NavBarItem>
 				<Logo>NEXT | BLOG</Logo>
 				<AddPostBtn>Add Blog</AddPostBtn>
-
 			</NavBarItem>
 		</div>
 	</Nav>);
